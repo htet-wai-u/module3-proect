@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fafafa;
+    font-family:'Times New Roman', Times, serif;
+        line-height: 1rem;
+    
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.border-nav {
+    margin-top: 1rem;
+    text-align: center;
+   
+    
+}
+
+ h1{
+    text-align: center;
+   
+}
+
+
+.border-nav a:hover{
+    
+    background-color: royalblue;
+
+}
+@media (max-width: 768px) {
+    .chicken,.sushi,.beef{
+        margin-bottom: 1rem;
+    }
+    
+}
